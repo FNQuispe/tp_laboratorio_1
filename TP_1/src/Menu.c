@@ -12,6 +12,7 @@ int IniciarMenuCalculadora(float numeroX, float numeroY, int hayNumeroX, int hay
 
 	int opcion;
 
+	printf("********************************************\n");
 	if (hayNumeroX != 0) {
 		printf("1. Ingresar 1er operando (A=%.2f)\n", numeroX);
 	} else {
